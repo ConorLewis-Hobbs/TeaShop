@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: black;
+    opacity: 0.9;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 69px;
+    padding: 10px;
+}
+
+.logo {
+    height: 50px;
+    display: flex;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.header-right {
+    font-family: Helvetica, sans-serif, Arial;
+    font-size: 30px;
+    color: seashell;
+    opacity: 0.9;
+    vertical-align: middle;
+}
+
+.header-right a {
+    padding: 20px;
+}
+
+body {
+    background-color: Black;
+    width: 100%;
+    min-height: 100vh;
+    font-family: Helvetica, sans-serif, Arial;
+    padding: 20px;
+}
+
+main {
+    padding-top: 69px;
+}
+
+#banner {
+    position: relative;
+    background-image: url(./Images/img-mission-background.webp);
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+    display: block;
+    width: 100%;
+}
+
+#banner .content {
+    background-color: black;
+    text-align: center;
+    color: seashell;
+    position: relative;
+    top: 40%;
+}
+
+#banner .content h2,
+#banner .content h4 {
+    padding: 10px 10px;
+}
+
+.content h2 {
+    background-color: black;
+    text-align: center;
+    color: seashell;
+    position: relative;
+    top: 40%;
+    padding: 10px 10px;
+}
+
+.content h4 {
+    background-color: black;
+    text-align: center;
+    color: seashell;
+    position: relative;
+    top: 40%;
+    padding: 10px 10px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.tea-types {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.tea-types h5 {
+    padding-top: 10px;
+}
+
+.thumbnail-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.fall-berry-blitz-tea .thumbnail-image {
+    background-image: url(./Images/img-berryblitz.webp);
+}
+
+.spiced-rum-tea .thumbnail-image {
+    background-image: url(./Images/img-spiced-rum.webp);
+}
+
+.seasonal-donughts .thumbnail-image {
+    background-image: url(./Images/img-donut.webp);
+}
+
+.myrtle-ave-tea .thumbnail-image {
+    background-image: url(./Images/img-myrtle-ave.webp);
+}
+
+.bedfold-bizarre-tea .thumbnail-image {
+    background-image: url(./Images/img-bedford-bizarre.webp);
+}
+
+.fall-berry-blitz-tea,
+.spiced-rum-tea,
+.seasonal-donughts,
+.myrtle-ave-tea,
+.bedfold-bizarre-tea {
+    width: 300px;
+    color: white;
+    padding: 20px 10px;
+}
+
+#locations {
+    position: relative;
+    background-image: url(./Images/img-locations-background.webp);
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+    display: block;
+    width: 100%
+}
+
+.container-locations {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.container-locations h2 {
+    text-align: center;
+    color: seashell;
+    position: relative;
+    top: 20%;
+    padding: 10px 10px;
+}
+
+.locations {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    max-width: 1020px;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+}
+
+.downtown,
+.east-bayside,
+.oakdale {
+    width: 300px;
+    color: white;
+    background-color: black;
+    margin: 20px 20px;
+    line-height: 3;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.name,
+.email,
+.phone-number {
+    width: 300px;
+    color: white;
+    background-color: black;
+    margin: 5px 10px;
+    line-height: 2;
+    text-align: center;
+}
+
+.copyright {
+    color: white;
+    text-align: left;
+    align-items: center;
+}
